@@ -5,4 +5,4 @@
 3. 对表白对象进行了分类，分模块展示，页面布局清晰；
 
 **系统截图**
-![主页截图](screenshot/biaobaiqiang.jpg)
+![截图](screenshot/biaobaiqiang.jpg)
