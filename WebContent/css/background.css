@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body {
+  background: -webkit-linear-gradient(left top, #ffaad5 , #ffffff, #ffaad5); 
+  background: -o-linear-gradient(bottom right, #ffaad5,  #ffffff,  #ffaad5); 
+  background: -moz-linear-gradient(bottom right, #ffaad5,  #ffffff, #ffaad5); 
+  background: linear-gradient(to bottom right, #ffaad5 ,  #ffffff,  #ffaad5); 
+}

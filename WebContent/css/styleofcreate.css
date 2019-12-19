@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+html, body {
+	width: 100%;
+	font-size: 14px;
+}
+.container {
+	width: 1210px;
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	box-shadow: 10px 10px 10px rgba(111, 111, 111, .5);
+	position: relative;
+	background: -moz-linear-gradient(top, #33CCFF 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#33CCFF), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #33CCFF 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #33CCFF 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #33CCFF 0%,#ffffff 100%);
+    background: linear-gradient(to bottom, #33CCFF 0%,#ffffff 100%);
+}
+.header .logo {
+	display: inline-block;
+	width: 140px;
+	height: 120px;
+	background: url("../images/logo.png") no-repeat;
+	position: relative;
+}
+
+.header .desc {
+	font-size: 18px;
+	line-height: 34px;
+	border-left: 1px solid #ccc;
+	position: absolute;
+	left: 70%;
+	top:35%;
+	padding-left: 10%;
+	font-weight: bold;
+}
+
+.register {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: relative;
+}
+.register-box {
+	width: 100%;
+	height: 52px;
+	padding-bottom: 30px;
+}
+.register-box .box {
+	width: 100%;
+	height: 100%;
+	line-height: 52px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+.register-box .box.error {
+	border: 1px solid red;
+}
+
+.register-box .box input {
+	width: 200px;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.register-box .box.right i {
+	width: 20px;
+	height: 20px;
+	background: url(../images/right.png) no-repeat center center;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+}
+.register-box .tip {
+	width: 100%;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.register-box .tip i {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.register-box .tip span {
+	color: #CCCCCC;
+}
+.register-box .tip.hide {
+	display: none;
+}
+.register-box .tip.default i {
+	background: url(../images/default.png) no-repeat center center;
+}
+
+.register-box .tip.default span {
+	color: black;
+}
+.register-box .tip.error i {
+	background: url(../images/error.png) no-repeat center center;
+}
+
+.register-box .tip.error span {
+	color: red;
+}
+.register-box .tip.ruo i {
+	background: url(../images/ruo.png) no-repeat center center;
+}
+.register-box .tip.zhong i {
+	background: url(../images/zhong.png) no-repeat center center;
+}
+.register-box .tip.qiang i {
+	background: url(../images/qiang.png) no-repeat center center;
+}
+.register-box.xieyi {
+	width: 100%;
+	height: 20px;
+	padding-bottom: 30px;
+}
+
+.register-box.xieyi .box {
+	line-height: normal;
+	padding: 0;
+	border: none;
+}
+
+.register-box.xieyi .box.error {
+	line-height: normal;
+	padding: 0;
+	border: 1px solid red;
+}
+
+.register-box.xieyi .box input {
+	width: auto;
+}

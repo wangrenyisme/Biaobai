@@ -1,0 +1,7 @@
+@charset "UTF-8";
+#myDiv
+{
+	text-align: center;
+	font-size: 14px;
+	background:radial-gradient(circle 2000px at center center,#ffffff,#33CCFF);
+}

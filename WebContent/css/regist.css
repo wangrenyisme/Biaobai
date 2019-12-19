@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.regist_name {
+	width: 100%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.login_name p {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #444;
+	padding: 10px 0 0px;
+}
+.footer {
+	margin-top:0.5%;
+	text-align: center;
+	font-size: 14px;
+	background: -moz-linear-gradient(bottom, #33CCFF 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#33CCFF), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(bottom, #33CCFF 0%,#ffffff 100%);
+    background: -o-linear-gradient(bottom, #33CCFF 0%,#ffffff 100%);
+    background: -ms-linear-gradient(bottom, #33CCFF 0%,#ffffff 100%);
+    background: linear-gradient(to top, #33CCFF 0%,#ffffff 100%);
+	color: #000000;
+}

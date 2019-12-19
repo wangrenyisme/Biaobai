@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Biaobia</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>org.java.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/servlet/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>org.java.servlet.registServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registServlet</servlet-name>
+    <url-pattern>/servlet/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updateServlet</servlet-name>
+    <servlet-class>org.java.servlet.updateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateServlet</servlet-name>
+    <url-pattern>/servlet/updateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>loginOutServlet</servlet-name>
+    <servlet-class>org.java.servlet.loginOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginOutServlet</servlet-name>
+    <url-pattern>/servlet/loginOutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

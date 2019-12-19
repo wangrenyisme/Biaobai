@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/org/java/dao/IUserDao.java=UTF-8
+encoding//src/org/java/dao/impl/Biaobai1DaoImpl.java=UTF-8
+encoding//src/org/java/dao/impl/Biaobai2DaoImpl.java=UTF-8
+encoding//src/org/java/dao/impl/Biaobai3DaoImpl.java=UTF-8
+encoding//src/org/java/dao/impl/Biaobai4DaoImpl.java=UTF-8
+encoding//src/org/java/dao/impl/Biaobai5DaoImpl.java=UTF-8
+encoding//src/org/java/dao/impl/UserDao.java=UTF-8
+encoding//src/org/java/pojo/User.java=UTF-8
+encoding//src/org/java/servlet/CommentForBai1Add.java=UTF-8
+encoding//src/org/java/servlet/registServlet.java=UTF-8
+encoding//src/org/java/servlet/updateServlet.java=UTF-8
